@@ -25,7 +25,7 @@
         <setting name="lazyLoadTriggerMethods" value="equals,clone,hashCode,toString" />
     </settings>
 
-    <!--<typeAliases>
-        <typeAlias alias="" type=""/>
-    </typeAliases>-->
+    <typeAliases>
+        <typeAlias alias="com.fhz.dao.entity.Student" type="student"/>
+    </typeAliases>
 </configuration>
