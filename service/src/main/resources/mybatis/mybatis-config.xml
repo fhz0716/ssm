@@ -26,6 +26,6 @@
     </settings>
 
     <typeAliases>
-        <typeAlias alias="com.fhz.dao.entity.Student" type="student"/>
+        <typeAlias alias="student" type="com.fhz.dao.entity.Student"/>
     </typeAliases>
 </configuration>

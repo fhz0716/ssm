@@ -3,6 +3,7 @@ package com.fhz.service;
 import com.fhz.dao.entity.Student;
 import com.fhz.dao.service.StudentService;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -13,6 +14,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @author: FuHZ
  * @create: 2019-11-28 22:07
  **/
+@Ignore
 public class StudetServiceTest {
     private ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:application.xml");
     private StudentService studentService;

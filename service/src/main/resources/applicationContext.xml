@@ -11,9 +11,9 @@
            http://www.springframework.org/schema/context/spring-context-3.2.xsd"
        default-autowire="byName" default-lazy-init="false">
 
-    <context:property-placeholder location="classpath:mybatis/datasource.properties,classpath:dubbo/dubbo.properties" />
+    <context:property-placeholder location="classpath:dubbo/datasource.properties,classpath:dubbo/dubbo.properties" />
 
-    <context:component-scan base-package="com.fhz.service" />
+    <context:component-scan base-package="com.fhz" />
 
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
         <property name="driverClassName" value="${dataSource.driverClassName}" />
@@ -30,7 +30,7 @@
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="configLocation" value="classpath:mybatis/mybatis-config.xml" />
-        <property name="mapperLocations" value="classpath*:mybatis/mapper/*Mapper.xml" />
+        <property name="mapperLocations" value="classpath*:mybatis/mapper/StudentMapper.xml" />
         <property name="dataSource" ref="dataSource" />
     </bean>
 

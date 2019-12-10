@@ -11,6 +11,6 @@
 
     <artifactId>controller</artifactId>
 
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
 </project>
