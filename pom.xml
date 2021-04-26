@@ -50,7 +50,7 @@
         <digester.version>2.1</digester.version>
         <fileupload.version>1.2.2</fileupload.version>
         <httpclient.version>3.1</httpclient.version>
-        <io.version>2.4</io.version>
+        <io.version>2.7</io.version>
         <lang.version>2.6</lang.version>
         <cglib.version>2.2</cglib.version>
         <servlet.version>2.5</servlet.version>
