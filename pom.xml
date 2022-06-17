@@ -45,7 +45,7 @@
         <velocity.version>1.7</velocity.version>
         <velocity.tools.version>1.4</velocity.tools.version>
         <dom4j.version>1.6.1</dom4j.version>
-        <fastjson.version>1.1.39</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <xmemcached.version>1.3.6</xmemcached.version>
         <digester.version>2.1</digester.version>
         <fileupload.version>1.2.2</fileupload.version>
